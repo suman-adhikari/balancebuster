@@ -1,0 +1,788 @@
+﻿* {
+    font-family: Calibri;
+    margin: 0;
+    padding: 0;
+}
+
+.tst {
+    background-color: red;
+    border: 1px solid red;
+}
+
+.login-container {
+    border: 1px solid #999;
+    border-radius: 21px;
+    bottom: 0;
+    box-shadow: 0px 1px 34px #999;
+    height: 370px;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+    padding: 30px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 630px;
+}
+
+#login-logo {
+    float: left;
+    margin-top: 37px;
+    width: 272px;
+}
+
+#login-logo img {
+    margin-left: 54px;
+    margin-top: 21px;
+}
+
+#login-form {
+    border-left: 1px dashed #CCC;
+    float: left;
+    margin-top: 12px;
+    padding-left: 70px;
+}
+
+#login-form h2 { margin-bottom: 26px; }
+
+.login-field { margin-bottom: 20px; }
+
+.login-field label {
+    display: inline-block;
+    min-width: 66px;
+}
+
+.login-field span {
+    display: inline-block;
+    margin-right: 30px;
+    width: 70px;
+}
+
+.login-field input[type="text"], .login-field input[type="password"] {
+    border: 1px solid #CCC;
+    height: 20px;
+    width: 180px;
+}
+
+#body-container {
+    margin: auto;
+    min-height: 400px;
+    width: 1381px;
+}
+
+#header-container {
+    /*width: 1381px; sum1*/
+    margin: auto;
+    margin-top: 10px;
+    width: auto;
+}
+
+#logo-part { float: left; }
+
+#beep-call {
+    font-family: Calibri;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-left: 55px;
+    margin-top: 0px;
+}
+
+#MenuContainer { margin-top: 10px; }
+
+#menu ul {
+    margin-left: -1px;
+    margin-top: 1px;
+}
+
+#menu ul li {
+    background-color: #009DCA;
+    background-repeat: repeat-x;
+    background-size: 1px 71px;
+    border: 1px solid #FFF;
+    cursor: pointer;
+    font-family: Calibri;
+    font-size: 18px;
+    list-style: none;
+    min-width: 140px;
+    text-shadow: 0.1em 0.1em 0.2em #000;
+}
+
+#menu ul li a {
+    color: #FFF;
+    display: block;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+#menu ul li:hover {
+    background-color: rgb(69, 138, 168);
+    background-repeat: repeat-x;
+}
+
+#menu ul li.active a { color: #fff; }
+
+#menu ul li.active { background-color: rgb(69, 138, 168); }
+
+.pager {
+    background-color: whitesmoke;
+    border: 1px solid rgb(49, 116, 146);
+    border-top: none;
+}
+
+.pager a {
+    background: #FFFFFF;
+    border: 1px solid #000;
+    color: #000;
+    cursor: pointer;
+    font-size: 15px;
+    height: 2em;
+    line-height: 2em;
+    margin: 5px;
+    padding: 0px 6px;
+    text-decoration: none;
+}
+
+.pager a.active-page { background: #CECECE; }
+
+#user-operations {
+    float: right;
+    margin-bottom: 10px;
+}
+
+input[type="submit"], input[type="button"], button {
+    background: rgb(16, 127, 177);
+    background-size: 1px 30px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px #000;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 20px;
+    text-shadow: 0.1em 0.1em 0.2em #000;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover { background: rgb(49, 116, 146); }
+
+.add-new-item input {
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.interface-body-container { margin-bottom: 10px; }
+
+.interface-body-container table:not(.exclude-interface-table) {
+    border-collapse: collapse;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.interface-body-container table:not(.exclude-interface-table) tbody tr:nth-child(odd) {
+    background-color: #F5F7F6;
+    font-family: Calibri;
+    font-size: 15px;
+}
+
+.interface-body-container h2 {
+    border-bottom: 2px solid #A07070;
+    margin-bottom: 10px;
+    padding: 0 0 2px 0;
+}
+
+.interface-body-container table:not(.exclude-interface-table) thead tr {
+    background-color: rgb(35, 154, 207);
+    color: #FFF;
+    font-family: Calibri;
+    font-size: 15px;
+    text-shadow: 0.1em 0.1em 0.2em #000;
+}
+
+.interface-body-container table:not(.exclude-interface-table) thead th, .interface-body-container table:not(.exclude-interface-table) tbody td,
+.interface-body-container table:not(.exclude-interface-table) tfoot td {
+    border: solid 1px rgb(49, 116, 146);
+    font-family: Calibri;
+    font-size: 15px;
+    padding: 4px;
+}
+
+.interface-body-container table:not(.exclude-interface-table) tbody th a { color: #000; }
+
+.interface-body-container table:not(.exclude-interface-table) a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.interface-body-container table:not(.exclude-interface-table) td a { color: blue; }
+
+.interface-body-container table:not(.exclude-interface-table) tfoot { background: rgb(175, 247, 175); }
+
+.hide { display: none; }
+
+.form-field {
+    display: table;
+    margin: 10px;
+}
+
+.form-field label {
+    display: inline-block;
+    width: 150px;
+}
+
+.form-field input { }
+
+.form-field-button {
+    float: right;
+    margin-right: 11px;
+    margin-top: 5px;
+}
+
+.add-new-campaign input {
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 1px;
+}
+
+.errorMessage {
+    color: red;
+    margin-top: 5px;
+}
+
+.campaign-description { margin-top: 10px; }
+
+.campaign-description-section {
+    float: left;
+    width: 100%;
+}
+
+.campaign-description-field { line-height: 20px; }
+
+.campaign-description-field-label { font-weight: bold; }
+
+.campaign-operation {
+    float: right;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#edit-campaign { float: right; }
+
+.error-message, .success-message {
+    margin: 0px 0px 10px 2px;
+    padding: 10px;
+    padding-left: 32px;
+}
+
+.error-message {
+    background-color: #FFBABA;
+    background-image: url(../images/error.png);
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border: 1px solid red;
+}
+
+.success-message {
+    background-color: #DFF2BF;
+    background-image: url('../images/success.png');
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    border: 1px solid green;
+}
+
+input.link-button {
+    background: none;
+    border: none;
+    box-shadow: none;
+    color: blue;
+    font-family: Calibri;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 0;
+    text-shadow: none;
+}
+
+input[type="submit"][disabled]:hover { text-decoration: none; }
+
+input.link-button:hover {
+    background: none;
+    text-decoration: underline;
+}
+
+input.link-button:focus { outline: none; }
+
+.datetime-picker-button {
+    float: right;
+    margin: 6px 4px 6px 0;
+}
+
+.campaignText {
+    border: 1px solid #B4AEAE;
+    color: #000;
+    display: inline-block;
+    height: 22px;
+    padding: 2px 0px 2px 5px;
+    width: 250px;
+}
+
+.validationError {
+    background-color: #F09F9F;
+    border: 1px solid #000;
+    border: 1px solid #141414;
+    box-shadow: 1px 1px 7px #551818;
+    display: inline-block;
+    padding: 2px 10px;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 100;
+}
+
+.validationLine {
+    background: #000;
+    height: 1px;
+    position: absolute;
+    width: 70px;
+    z-index: 9999;
+}
+
+.dashBoardStartButton { margin-top: 10px; }
+
+.loading-image {
+    -moz-opacity: 0.45;
+    background-image: url('../images/ajax-loader-bar.gif');
+    background-repeat: no-repeat;
+    filter: alpha(opacity=45);
+    height: 20px;
+    margin-top: 10px;
+    opacity: 0.60;
+    width: 50px;
+    z-index: 10;
+}
+
+.reportExportButtonForm {
+    float: right;
+    margin-bottom: 15px;
+}
+
+#gauges { margin-left: 18px; }
+
+.gauge {
+    float: left;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-right: 80px;
+    margin-top: 10px;
+    width: 394px;
+}
+
+.pie-chart { display: table-cell; }
+
+.gauge:last-child { margin-right: 0; }
+
+.gauge-title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gauge table { text-align: center; }
+
+.gauge table div[dir="ltr"] {
+    background: #FFF;
+    width: initial !important;
+}
+
+svg { background: #FFF !important; }
+
+ {
+    margin-left: -60px;
+    margin-top: 10px;
+}
+
+.left { float: left; }
+
+.right { float: right; }
+
+.configuration-container {
+    border: 1px solid #000;
+    margin-top: 6px;
+    overflow: hidden;
+}
+
+.configuration-container h4 {
+    background: #009DCA;
+    color: #FFF;
+    cursor: pointer;
+    font-family: Calibri;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-shadow: 0.1em 0.1em 0.2em #000;
+}
+
+fieldset {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+fieldset legend {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.statistics-operation-section {
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.statistics-filterInput-section {
+    float: left;
+    width: 500px;
+}
+
+.statistics-counter-section {
+    float: left;
+    margin-left: 60px;
+    width: 660px;
+}
+
+.statistics-counter-section table tr td { border: 0px !important; }
+
+.counter-data { color: #FC0E18; }
+
+.statistics-counter-section-left {
+    float: left;
+    margin-right: 5px;
+    width: 325px;
+}
+
+.statistics-counter-section-right {
+    float: left;
+    width: 325px;
+}
+
+.statistics-filterInput-description-field { line-height: 33px; }
+
+.statistics-filterInput-description-field input[type="submit"] {
+    float: right;
+    margin-right: 55px;
+}
+
+.statistics-filterInput-description-field label {
+    display: inline-block;
+    margin-right: 60px;
+    min-width: 116px;
+}
+
+.statistics-filterInput-description-field select { width: 160px; }
+
+.statistics-operation-section h4 { margin-bottom: 10px; }
+
+.prefix-condition {
+    color: red;
+    float: left;
+    margin-left: 16px;
+    width: 344px;
+}
+
+.file-condition {
+    color: red;
+    float: left;
+    width: 225px;
+}
+
+.ui-custom-button {
+    background: rgb(16, 127, 177) !important;
+    background-size: 1px 30px !important;
+    border: 1px solid #000 !important;
+    border-radius: 2px !important;
+    box-shadow: 2px 2px 5px #000 !important;
+    color: #FFF !important;
+    cursor: pointer !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    opacity: 1 !important;
+    padding: 5px 20px !important;
+    text-shadow: 0.1em 0.1em 0.2em #000 !important;
+}
+
+.ui-custom-button:hover { background: rgb(49, 116, 146) !important; }
+
+#numbers-container {
+    float: left;
+    margin-left: 10px;
+    width: 250px;
+}
+
+#numbers-container input { margin-bottom: 5px; }
+
+#test-campaign-element { float: left; }
+
+.highlight-started-campaign {
+    background-color: rgb(243, 203, 203) !important;
+    font-weight: bold;
+}
+
+.pie-chart-container table { width: initial !important; }
+
+.pie-chart-container table td {
+    background: none !important;
+    border: none !important;
+}
+
+.tooltip {
+    background: rgb(0, 130, 179);
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, .7) 1px 1px 5px 1px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 20px;
+    min-height: 20px;
+    padding: 3px;
+    position: absolute;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 1px;
+    width: 70px;
+    z-index: 1;
+}
+
+.pie-chart-container {
+    float: left;
+    position: relative;
+    width: 418px;
+}
+
+.pie-chart-container table { width: initial; }
+
+.hide-dashboard {
+    background: #FFF;
+    height: 567px;
+    opacity: 0.4;
+    position: absolute;
+    width: 1381px;
+}
+
+.username {
+    color: rgb(0, 130, 179);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.change-language { float: right; }
+
+.time {
+    color: rgb(0, 130, 179);
+    font-weight: bold;
+    height: 20px;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 46;
+    width: 109px;
+}
+
+.campaign-name {
+    display: inline-block;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100px;
+}
+
+.no-access {
+    border: 1px solid red;
+    color: #9F6000;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+    width: 700px;
+}
+
+.configuration-section { padding: 10px; }
+
+.upload-file { float: right; }
+
+fieldset .form-field {
+    float: left;
+    margin: 10px;
+    width: 650px;
+}
+
+.form-checkbox {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+fieldset .form-field label {
+    display: inline-block;
+    margin-right: 20px;
+    width: initial;
+}
+
+fieldset { border: solid 1px rgb(49, 116, 146) }
+
+.google-chart-container {
+    border: 1px solid #000;
+    margin-top: 6px;
+    overflow: hidden;
+}
+
+#line-chart-container .google-chart-section { margin-left: -25px; }
+
+.google-chart-container h4 {
+    background: #009DCA;
+    color: #FFF;
+    cursor: pointer;
+    font-family: Calibri;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-shadow: 0.1em 0.1em 0.2em #000;
+}
+
+.google-chart-container h5 {
+    font-size: 15px;
+    margin: 10px 0px 0 20px;
+}
+
+.operation-section {
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.filterInput-section {
+    float: left;
+    width: 500px;
+}
+
+.filterInput-description-field { line-height: 33px; }
+
+.filterInput-description-field label {
+    display: inline-block;
+    margin-right: 75px;
+    text-align: right;
+    width: 36px;
+}
+
+.filterInput-description-field input[type="submit"] {
+    float: right;
+    margin-right: 55px;
+}
+
+.data-section {
+    float: right;
+    margin-left: 60px;
+    margin-top: 50;
+    width: 660px;
+}
+
+.counter-data { color: #FC0E18; }
+
+table.report-filter > tbody > tr > td:first-child {
+    padding: 4px;
+    text-align: right;
+}
+
+table.report-filter { width: 249px; }
+
+table.report-filter th { text-align: left; }
+
+table.report-filter tr { line-height: 27px; }
+
+.ui-widget .ui-widget { margin: 0px 10px; }
+
+#beep-counts-hourly-average tbody td { }
+
+#beep-counts-hourly-average tbody tr:last-child td { border-bottom: solid 1px rgb(49, 116, 146) !important; }
+
+-section {
+    float: left;
+    margin-left: -16px;
+}
+
+.column-chart-section {
+    float: left;
+    margin-left: 4px;
+}
+
+input[type='submit'][disabled='disabled'] {
+    background: #CCC;
+    color: #FFF;
+    cursor: default;
+}
+
+img { border: none; }
+
+input[type="file"] { height: 22px; }
+
+
+
+.jqplot-data-label { color: #FFF; }
+
+.jqplot-table-legend-swatch { width: 10px; }
+
+table.jqplot-table-legend { width: 100px; }
+
+.interface-body-container table.jqplot-table-legend {
+    border: none !important;
+    left: 231px !important;
+    top: 24px !important;
+    width: 100px !important;
+}
+
+.interface-body-container table tr.jqplot-table-legend { background-color: #fff !important; }
+
+.interface-body-container table.jqplot-table-legend tbody td { border: none !important; }
+
+.interface-body-container table.jqplot-table-legend tbody td.jqplot-table-legend-label {
+
+    color: black !important;
+    font-family: Arial !important;
+    font-size: 11px !important;
+    stroke: none !important;
+    stroke-width: 0px !important;
+    text-anchor: start !important;
+    white-space: nowrap !important;
+}
+
+.line-chart-section { float: left; }
+
+.line-chart-section:first-child { /* margin-right: 95px;*/ }
+
+.line-chart table.jqplot-table-legend, .line-chart-section table.jqplot-table-legend {
+    left: 15px !important;
+    top: -12px !important;
+}
+
+div.jqplot-table-legend-swatch-outline { border: none !important; }
+
+.div-separator { margin: 20px 0; }
+
+.pie-chart-section { margin-right: 175px; }
+
+.pie-chart-section:last-child { margin-right: 0; }
+
+.pie-tooltip {
+    background-color: #FFF;
+    border: 1px solid #Ddd;
+    box-shadow: 0px 1px 6px #000;
+    font-size: 11px;
+    padding: 5px 10px;
+    white-space: nowrap;
+}
+
+.line-chart div.jqplot-title, .line-chart-section div.jqplot-title { top: -30px !important; }
+
+.line-chart { margin-left: -37px; }

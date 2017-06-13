@@ -1,0 +1,33 @@
+.input-spinner {
+    padding: 5px;
+    x
+}
+
+.ui-spinner {
+    border: 0px solid white;
+    position: relative;
+}
+
+.ui-spinner-buttons { position: absolute }
+
+.ui-spinner-button {
+    -moz-border-radius: 0 2px 2px 0;
+    -webkit-border-radius: 0 2px 2px 0;
+    border: 1px solid #bbb;
+    border-left: 0;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    height: 10px;
+    overflow: hidden;
+    width: 20px;
+}
+
+.ui-spinner-up {
+    background: url(../img/spinner.png) no-repeat -2px 1px;
+    border-bottom: 0;
+}
+
+.ui-spinner-down {
+    background: url(../img/spinner.png) no-repeat -2px -11px;
+    height: 16px !important;
+}

@@ -1,0 +1,104 @@
+﻿.login-container {
+    background-image: url("../images/login-backGround.gif");
+    background-repeat: no-repeat;
+    border: none;
+    bottom: 0;
+    box-shadow: none;
+    height: 270px;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+    padding: 30px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 677px;
+}
+
+#login-logo {
+    float: left;
+    margin-top: 44px;
+    padding-left: 14px;
+    width: 275px;
+}
+
+.login-change-language {
+    float: right;
+    padding-right: 24px;
+    padding-top: 20px;
+}
+
+#login-logo img {
+    margin-left: 27px;
+    margin-top: 47px;
+}
+
+/*Added by sushil*/
+
+.interface-body-container { margin-bottom: 10px; }
+
+.interface-body-container table {
+    border-collapse: collapse;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.tableEven {
+    background-color: #fff;
+    font-family: Calibri;
+    font-size: 15px;
+}
+
+.tableOdd {
+    background-color: #F5F7F6;
+    font-family: Calibri;
+    font-size: 15px;
+}
+
+.interface-body-container h2 {
+    border-bottom: 2px solid #A07070;
+    margin-bottom: 10px;
+    padding: 0 0 2px 0;
+}
+
+.interface-body-container table thead tr {
+    background-color: #0065B2;
+    color: #FFF;
+    font-family: Calibri;
+    font-size: 15px;
+    text-shadow: 0.1em 0.1em 0.2em #000;
+}
+
+.interface-body-container table thead th, .interface-body-container table tbody td,
+.interface-body-container table tfoot td {
+    border: solid 1px rgb(101, 142, 160);
+    font-family: Calibri;
+    font-size: 15px;
+    padding: 4px;
+}
+
+.interface-body-container table tbody th a { color: #000; }
+
+.interface-body-container table a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.interface-body-container table td a { color: blue; }
+
+.interface-body-container table tfoot { background: rgb(175, 247, 175); }
+
+#menu ul li a {
+    filter: progid:DXImageTransform.Microsoft.Shadow(direction=135, strength=2, color=000000);
+    font-family: Calibri;
+}
+
+input[type="submit"], input[type="button"], button {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+input.link-button {
+    -ms-filter: none;
+    filter: none;
+}

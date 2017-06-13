@@ -1,0 +1,114 @@
+#popup_container {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background: #fff;
+    border-radius: 2px;
+    color: #666;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    max-width: 600px; /* Dialog will wrap after this width */
+    min-width: 300px; /* Dialog will be no smaller than this */
+    padding: 8px !important;
+}
+
+#popup_title {
+    background: #ccc;
+    border: 1px solid #bbb;
+    color: #888;
+    cursor: default;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 21px;
+    margin: 0em;
+    outline: none;
+    padding: 5px 10px;
+    text-shadow: 1px 1px #eee;
+    text-transform: uppercase;
+}
+
+#popup_content {
+    background: #fff;
+    margin: 0em;
+    padding: 0;
+}
+
+#popup_content.alert {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border: 0;
+    border-radius: 0;
+    color: #666;
+    text-shadow: none;
+}
+
+#popup_message {
+    border: 1px solid #bbb;
+    border-bottom: 0;
+    border-top: 0;
+    padding: 20px 10px;
+}
+
+#popup_panel {
+    border: 1px solid #bbb;
+    border-top: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#popup_panel input {
+    min-width: 100px;
+    text-align: center;
+}
+
+#popup_prompt {
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    color: #666;
+    margin: 5px 0;
+    padding: 7px 5px;
+}
+
+#popup_prompt:focus { background: #fff; }
+
+#popup_overlay {
+    background: #333 !important;
+    opacity: 0.8 !important;
+}
+
+#popup_ok, #popup_cancel {
+    display: inline-block;
+    font-size: 12px;
+    padding: 5px 15px;
+}
+
+#popup_ok, #popup_cancel { cursor: pointer; }
+
+#popup_ok:hover, #popup_ok:active, #popup_cancel:hover, #popup_cancel:active { background-position: 0 -39px; }
+
+#popup_ok, #popup_ok:hover {
+    background: rgb(59, 105, 152);
+    background: -moz-linear-gradient(top, rgba(59, 105, 152, 1) 0%, rgba(35, 86, 136, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(59, 105, 152, 1)), color-stop(100%, rgba(35, 86, 136, 1)));
+    background: -webkit-linear-gradient(top, rgba(59, 105, 152, 1) 0%, rgba(35, 86, 136, 1) 100%);
+    background: -o-linear-gradient(top, rgba(59, 105, 152, 1) 0%, rgba(35, 86, 136, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(59, 105, 152, 1) 0%, rgba(35, 86, 136, 1) 100%);
+    background: linear-gradient(to bottom, rgba(59, 105, 152, 1) 0%, rgba(35, 86, 136, 1) 100%);
+    border: 1px solid #023c70;
+    color: #fff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b6998', endColorstr='#235688', GradientType=0);
+    font-weight: bold;
+}
+
+#popup_cancel {
+    background: #eee;
+    border: 1px solid #ccc;
+    color: #333;
+    text-shadow: 1px 1px #f7f7f7;
+}
+
+#popup_cancel:hover {
+    background-color: #ddd;
+    border: 1px solid #bbb;
+}
+
+#popup_prompt { width: 270px !important; }

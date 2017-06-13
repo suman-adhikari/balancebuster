@@ -1,0 +1,145 @@
+/* Z-INDEX */
+ .formError { z-index: 990; }
+
+ .formError .formErrorContent { z-index: 991; }
+
+ .formError .formErrorArrow { z-index: 996; }
+
+ .formErrorInsideDialog.formError { z-index: 5000; }
+
+ .formErrorInsideDialog.formError .formErrorContent { z-index: 5001; }
+
+ .formErrorInsideDialog.formError .formErrorArrow { z-index: 5006; }
+
+
+
+
+ .inputContainer {
+     float: left;
+     position: relative;
+ }
+
+ .formError {
+     cursor: pointer;
+     display: table;
+     left: 300px;
+     left: 300px;
+     opacity: 1 !important;
+     position: absolute;
+     top: 300px;
+ }
+
+ .ajaxSubmit {
+     background: #55ea55;
+     border: 1px solid #999;
+     display: none;
+     padding: 20px;
+ }
+
+ .formError .formErrorContent {
+     -moz-border-radius: 6px;
+     -webkit-border-radius: 6px;
+     background: #ec6a38;
+     border: 2px solid #ddd;
+     border-radius: 6px;
+     color: #fff;
+     font-size: 11px;
+     font-size: 11px;
+     font-weight: bold;
+     line-height: 20px;
+     padding: 4px 10px 4px 10px;
+     position: relative;
+     white-space: nowrap;
+     width: 100%;
+ }
+
+ .greenPopup .formErrorContent { background: #1E9429; }
+
+ .blackPopup .formErrorContent {
+     background: #393939;
+     color: #FFF;
+ }
+
+ .formError .formErrorArrow {
+     margin: -2px 0 0 13px;
+     position: relative;
+     width: 15px;
+ }
+
+ body[dir='rtl'] .formError .formErrorArrow,
+ body.rtl .formError .formErrorArrow { margin: -2px 13px 0 0; }
+
+ .formError .formErrorArrowBottom {
+     -moz-box-shadow: none;
+     -webkit-box-shadow: none;
+     box-shadow: none;
+     margin: 0px 0 0 12px;
+     top: 2px;
+ }
+
+ .formError .formErrorArrow div {
+     -moz-box-shadow: 0 2px 3px #444;
+     -webkit-box-shadow: 0 2px 3px #444;
+     background: #ec6a38;
+     border-left: 2px solid #ddd;
+     border-right: 2px solid #ddd;
+     box-shadow: 0 2px 3px #444;
+     display: block;
+     font-size: 0px;
+     font-size: 0;
+     height: 1px;
+     line-height: 0;
+     margin: 0 auto;
+ }
+
+ .formError .formErrorArrowBottom div {
+     -moz-box-shadow: none;
+     -webkit-box-shadow: none;
+     box-shadow: none;
+ }
+
+ .greenPopup .formErrorArrow div { background: #1E9429; }
+
+ .blackPopup .formErrorArrow div {
+     background: #393939;
+     color: #FFF;
+ }
+
+ .formError .formErrorArrow .line10 {
+     border: none;
+     width: 15px;
+ }
+
+ .formError .formErrorArrow .line9 {
+     border: none;
+     width: 13px;
+ }
+
+ .formError .formErrorArrow .line8 { width: 11px; }
+
+ .formError .formErrorArrow .line7 { width: 9px; }
+
+ .formError .formErrorArrow .line6 { width: 7px; }
+
+ .formError .formErrorArrow .line5 { width: 5px; }
+
+ .formError .formErrorArrow .line4 { width: 3px; }
+
+ .formError .formErrorArrow .line3 {
+     border-bottom: 0 solid #ddd;
+     border-left: 2px solid #ddd;
+     border-right: 2px solid #ddd;
+     width: 1px;
+ }
+
+ .formError .formErrorArrow .line2 {
+     background: #ddd;
+     border: none;
+     width: 3px;
+ }
+
+ .formError .formErrorArrow .line1 {
+     background: #ddd;
+     border: none;
+     width: 1px;
+ }
