@@ -239,9 +239,15 @@ include_once 'C:/wamp64/www/BalanceBuster/Shared/Views/base.php';
             datasets:DataSet_line()
 
         }
+		
+		var Options = {
+			showAllTooltips: true
+			
+		};
+
 
         var ctx = $("#canvas").get(0).getContext("2d");
-        var BarChart = new Chart(ctx).Bar(barChartData,{});
+        var BarChart = new Chart(ctx).Bar(barChartData,Options);
         document.getElementById('pie-legend').innerHTML = BarChart.generateLegend()
         BarChart.destroy();
 

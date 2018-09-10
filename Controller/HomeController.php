@@ -45,7 +45,7 @@ class HomeController extends Controller {
         }
         else
         {
-
+			if($expenses->Description==null){ $expenses->Description = $expenses->Name; }
             $status =$this->expensesRepository->Save($expenses);
             ConformationSet::Save($status);
         }

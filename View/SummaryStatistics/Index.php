@@ -201,23 +201,8 @@ include_once 'C:/wamp64/www/BalanceBuster/Shared/Views/base.php';
                 }
             ]
         }
-
-        var ctx = $("#canvas").get(0).getContext("2d");
-        var BarChart = new Chart(ctx).Bar(barChartData,{options});
-        //document.getElementById('pie-legend').innerHTML = BarChart.generateLegend()
-        BarChart.destroy();
-
-        var ctx1 = $("#canvasLine").get(0).getContext("2d");
-        var LineChart = new Chart(ctx1).Line(lineChartDate,{options1});
-        //document.getElementById('pie-legend1').innerHTML = LineChart.generateLegend();
-        LineChart.destroy();
-
-        // canvasLine
-
-    }
-
-
-     var options =
+		
+		var options =
      {
      tooltipTemplate: "<"+ "%= value %" + ">",
      onAnimationComplete: function()
@@ -258,6 +243,22 @@ include_once 'C:/wamp64/www/BalanceBuster/Shared/Views/base.php';
      tooltipTemplate: "<%= value %>",
      responsive: true
      };
+
+
+        var ctx = $("#canvas").get(0).getContext("2d");
+        var BarChart = new Chart(ctx).Bar(barChartData,{options});
+        //document.getElementById('pie-legend').innerHTML = BarChart.generateLegend()
+        BarChart.destroy();
+
+        var ctx1 = $("#canvasLine").get(0).getContext("2d");
+        var LineChart = new Chart(ctx1).Line(lineChartDate,{options1});
+        //document.getElementById('pie-legend1').innerHTML = LineChart.generateLegend();
+        LineChart.destroy();
+
+        // canvasLine
+
+    }
+
 
 
 
